@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+        
+        var firebaseConfig = {
+          apiKey: "AIzaSyA6fwc648QrW3fsK8GaqQ6vWygygrlU_PY",
+          authDomain: "quizapp-e0f4f.firebaseapp.com",
+          databaseURL: "https://quizapp-e0f4f.firebaseio.com",
+          projectId: "quizapp-e0f4f",
+          storageBucket: "quizapp-e0f4f.appspot.com",
+          messagingSenderId: "153920127328",
+          appId: "1:153920127328:web:a0580053c1e1f8fadb5e05",
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+      </script>
     <title>Quiz App</title>
 </head>
 
@@ -13,40 +29,40 @@
     
     <fieldset class="one">
         <p>Q1. FIA (Federal Investigation Agency) was formed in:</p>
-        <input type="radio" id="option1-1" name="a" value="1">13 January 1973<br>
-        <input type="radio" id="option1-2" name="b" value="2">23 March 1973<br>
-        <input type="radio" id="option1-3" name="c" value="3">13 January 1975<br>
-        <input type="radio" id="option1-4" name="d" value="4">None of These<br>
+        <input type="radio" id="option11" name="kl" value="13 January 1973">13 January 1973<br>
+        <input type="radio" id="option12" name="kl" value="23 March 1973">23 March 1973<br>
+        <input type="radio" id="option13" name="kl" value="13 January 1975">13 January 1975<br>
+        <input type="radio" id="option14" name="kl" value="None of These">None of These<br>
     </fieldset>
 
     <br>
 
     <fieldset class="two">
         <p>Q2. Who was the founder of FIA (Federal Investigation Agency) Pakistan?</p>
-        <input type="radio" id="option2-1" name="q2" value="main1">Zulfiqar Ali Bhutto<br>
-        <input type="radio" id="option2-2" name="q2" value="main2">General Zia ul Haq<br>
-        <input type="radio" id="option2-3" name="q2" value="main3">Pervez Musharraf<br>
-        <input type="radio" id="option2-4" name="q2" value="main4">None of These<br>
+        <input type="radio" id="option21" name="q2" value="Zulfiqar Ali Bhutto">Zulfiqar Ali Bhutto<br>
+        <input type="radio" id="option22" name="q2" value="General Zia ul Haq">General Zia ul Haq<br>
+        <input type="radio" id="option23" name="q2" value="Pervez Musharraf">Pervez Musharraf<br>
+        <input type="radio" id="option24" name="q2" value="None of These">None of These<br>
     </fieldset>
 
     <br>
 
     <fieldset class="three">
         <p>Q3. When Pakistan won the Cricket World Cup:</p>
-        <input type="radio" id="option3-1" name="q3" value="main5">1992<br>
-        <input type="radio" id="option3-2" name="q3" value="main6">1996<br>
-        <input type="radio" id="option3-3" name="q3" value="main7">1999<br>
-        <input type="radio" id="option3-4" name="q3" value="main8">2003<br>
+        <input type="radio" id="option31" name="q3" value="1992">1992<br>
+        <input type="radio" id="option32" name="q3" value="1996">1996<br>
+        <input type="radio" id="option33" name="q3" value="1999">1999<br>
+        <input type="radio" id="option34" name="q3" value="2003">2003<br>
     </fieldset>
 
     <br>
 
     <fieldset class="four">
         <p>Q4. The national language of Pakistan is:</p>
-        <input type="radio" id="option4-1" name="q4" value="main9">Pushto<br>
-        <input type="radio" id="option4-2" name="q4" value="main10">English<br>
-        <input type="radio" id="option4-3" name="q4" value="main11">Urdu<br>
-        <input type="radio" id="option4-4" name="q4" value="main12">Punjabi<br>
+        <input type="radio" id="option41" name="q4" value="Pushto">Pushto<br>
+        <input type="radio" id="option42" name="q4" value="English">English<br>
+        <input type="radio" id="option43" name="q4" value="Urdu">Urdu<br>
+        <input type="radio" id="option44" name="q4" value="Punjabi">Punjabi<br>
     </fieldset>
 
     <br>
